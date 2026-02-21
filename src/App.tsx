@@ -4,6 +4,8 @@ import { AboutSection } from './components/AboutSection'
 import { SkillsSection } from './components/SkillsSection'
 import { ProjectsSection } from './components/ProjectsSection'
 import { ContactSection } from './components/ContactSection'
+import { CertificationsSection } from './components/CertificationsSection'
+import { ResumePage } from './components/ResumePage'
 
 export default function App() {
   return (
@@ -14,6 +16,12 @@ export default function App() {
         <ProjectsSection />
         <AboutSection />
         <SkillsSection />
+        <div id="certifications">
+          <CertificationsSection />
+        </div>
+        <div id="resume">
+          <ResumePage />
+        </div>
         <ContactSection />
       </main>
     </div>
