@@ -41,7 +41,7 @@ export function Navigation() {
           </motion.div>
           
           <div className="hidden md:flex items-center space-x-8">
-            {['home', 'projects', 'skills', 'about', 'certifications', 'resume', 'contact'].map((item, index) => (
+            {['home', 'projects', 'skills', 'about', 'contact'].map((item, index) => (
               <motion.button
                 key={item}
                 initial={{ opacity: 0, y: -20 }}
