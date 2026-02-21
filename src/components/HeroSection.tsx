@@ -86,9 +86,9 @@ export function HeroSection() {
               <div>
                 <AnimatedTextRotator
                   texts={[
-                    'Modern Web Applications',
-                    'Beautiful User Interfaces',
-                    'Scalable Backend Systems'
+                    'Agile Project Execution',
+                    'Customer Success',
+                    'Scalable Systems'
                   ]}
                   className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400"
                 />
