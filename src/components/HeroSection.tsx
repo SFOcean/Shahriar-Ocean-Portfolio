@@ -79,6 +79,8 @@ export function HeroSection() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-blue-400">
                   Product Manager
                 </span>{' '}
+                </div>
+              <div>
                 specializing in
               </div>
               <div>
