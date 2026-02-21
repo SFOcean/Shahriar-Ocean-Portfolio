@@ -71,21 +71,22 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
-              className="text-2xl md:text-4xl text-gray-300 mb-8 space-y-2"
+              className="text-2xl md:text-4xl text-gray-300 mb-8 space-y-6"
+              
             >
               <div>
                 I'm a{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-blue-400">
                   Product Manager
-                </span>
+                </span>{' '}
+                specializing in
               </div>
               <div>
-                specializing in{' '}
                 <AnimatedTextRotator
                   texts={[
-                    'Project Execution',
-                    'Product Stratrgy',
-                    'Agile Project Management'
+                    'Modern Web Applications',
+                    'Beautiful User Interfaces',
+                    'Scalable Backend Systems'
                   ]}
                   className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400"
                 />
